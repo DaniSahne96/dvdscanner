@@ -1,20 +1,43 @@
-# built application files
+########## General Files
 *.apk
 *.ap_
-
-# files for the dex VM
 *.dex
-
-# Java class files
 *.class
+*.class
+*.jar
+*.war
+*.ear
+*.gitignore
+*.gitignore.swp
+*.pydevproject
+*.tmp
+*.bak
+*.swp
+*~.nib*.launch
 
-# generated files
+########## Special Files
+local.properties
+proguard-project.txt
+
+##########Visible Folders
 bin/
 gen/
+abc/
+bin/**
+tmp/**
+tmp/**/*
 
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Eclipse project files
+##########Hidden Folders
 .classpath
 .project
+.settings/
+.classpath
+.settings/
+.loadpath
+.externalToolBuilders/
+.cproject
+.buildpath
+.project
+.metadata
+
+
